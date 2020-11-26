@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'team/index.css'%}">
+</head>
+
+
+<nav id="MainNavBar">
+    <ul>
+        <li><a href="{%url 'home:index'%}">Home</a></li>
+        <li><a href="{%url 'register:index'%}">Register/Login</a></li>
+        <li><a href="coronatesting.html">How it works?</a></li>
+        <li><a href="{%url 'team:index'%}">Our Team</a></li>
+        <li id="navLogo"><img src="{%static 'images/logo1.jfif'%}"></li>
+        <li><h1>Your Fake News Fighter</h1></li>
+    </ul>
+</nav>
+
+<body>
+    <div class="deeptiall">
+        <div class="deepti">
+            <img class="dimg" src="{%static 'images/deeptimaam.jfif'%}" height=180px width=180px />
+        </div>
+        <div class="ddesc">
+            <p class="dname" >Mrs.Deepti Singh</p>
+            <p class="dpost">Research Advisor</p>
+        </div>
+
+    </div>
+
+    <div class="allOthers">
+        <div class="sushenall">
+            <div class="sushen">
+                <img class="dimg" src="{%static 'images/srx.jfif'%}" height=180px width=180px />
+            </div>
+            <div class="ddesc">
+                <p class="dname" >SRX Mole Wale</p>
+                <p class="dpost">Sab kuch inhone hi kia hai</p>
+            </div>
+        </div>
+
+        <div class="sushenall">
+            <div class="sushen">
+                <img class="dimg" src="{%static 'images/elon.jfif'%}" height=180px width=180px />
+            </div>
+            <div class="ddesc">
+                <p class="dname" >TT Bhai</p>
+                <p class="dpost">Tesla Co Founder</p>
+            </div>
+        </div>
+
+        <div class="sushenall">
+            <div class="sushen">
+                <img class="dimg" src="{%static 'images/atharva.jfif'%}" height=180px width=180px />
+            </div>
+            <div class="ddesc">
+                <p class="dname" >Atharva Tripathi</p>
+                <p class="dpost">Management head</p>
+            </div>
+        </div>
+    </div>
+   
+    
+
+</body>

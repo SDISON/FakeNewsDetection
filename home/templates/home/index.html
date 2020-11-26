@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'home/index.css'%}">
+</head>
+
+
+
+
+
+<body>
+    {% load static %}
+    <nav id="MainNavBar">
+        <ul>
+            <li><a href="{%url 'home:index'%}">Home</a></li>
+            <li><a href="{%url 'register:index'%}">Register/Login</a></li>
+            <li><a href="coronatesting.html">How it works?</a></li>
+            <li><a href="{%url 'team:index'%}">Our Team</a></li>
+            <li id="navLogo"><img src="{%static 'images/logo1.jfif'%}"></li>
+            <li><h1>Your Fake News Fighter</h1></li>
+        </ul>
+    </nav>
+    <div class="ProblemStatment">
+
+        <div class="PSImage">
+        <img src="{%static 'images/problemStatement.png'%}" height="400px" width="100%"/>
+        </div>
+
+        <div class="PSDesc">
+            <p class="PSDescPara">Did your mother call you to tell you that liberals hate science?<br><br>
+                Did your Facebook feed pop up with an article on a new pesticide that's going to kill us all? <br><br>
+                Did one of your friends breathlessly tell you that President Trump was going to pardon mass shooter Dylann Roof?  <br><br>
+                You might have heard any or all of these stories, but there's one thread connecting all of them: they're not true.<br><br>
+
+                The ability to tell accurate news from fake news is an important skill that you'll use for the rest of your life.
+                Fake news” is a term that has come to mean different things to different people. At its core, we are defining “fake news” as those news stories that are false: the story itself is fabricated, with no verifiable facts, sources or quotes. Sometimes these stories may be propaganda that is intentionally designed to mislead the reader, or may be designed as “clickbait” written for economic incentives (the writer profits on the number of people who click on the story). In recent years, fake news stories have proliferated via social media, in part because they are so easily and quickly shared online.
+            </p>
+        </div>
+    </div>
+
+
+    
+    <div class="problem">
+        <h1 id="what"> What is the problem?</h1>
+        <div class="subproblem">
+        <div class="d1">
+            <img src="{%static 'images/pimage.jpg'%}" id="pimage" height=500px width=500px> </img> 
+        </div>
+
+        <div class="d2">
+            <p id="desc">
+                Why should you care about whether your news is real or fake?<br><br>
+    
+    <b>1. You deserve the truth:</b>.  You are smart enough to make up your own mind - as long as you have the real facts in front of you.  You have every right to be insulted when you are presented with fake news, because you are in essence being treated like an idiot.<br><br>
+    <b>2. Fake news destroys your credibility.</b>  If your arguments are built on bad information, it will be much more difficult for people to believe you now and in the future.<br><br>
+    <b>3. Fake news can hurt you</b> and a lot of other people.  Purveyors of fake and misleading medical advice like Mercola.com and NaturalNews.com help perpetuate myths like HIV and AIDS aren't related, or that vaccines cause autism.  These sites are heavily visited and their lies are dangerous.<br><br>
+    <b>4. Real news can benefit you.</b>If you want to buy stock in a company, you want to read accurate articles about that company so you can invest wisely.  If you are planning on voting in an election, you want to read as much good information on a candidate so you can vote for the person who best represents your ideas and beliefs.  Fake news will not help you make money or make the world a better place, but real news can.<br><br>
+            </p>
+        </div></div>
+           
+    </div>
+
+
+    <h1 id="what"> Some past examples of fake news </h1>
+    <div class="falseNewsHistory">
+        <div class="n1">
+            <p>
+                <a href="https://www.vox.com/policy-and-politics/21495178/trump-coronavirus-media-misinformation-charlie-warzel">Vox: Our misinformation problem is about to get much, much worse (Oct. 6, 2020)</a>
+Within minutes of President Trump announcing that he and first lady Melania Trump tested positive for the coronavirus, the internet was awash in speculation and conspiracy theories.
+
+            </p>
+        </div>
+
+        <div class="n1">
+            <p>
+                <a href="https://www.cnn.com/2020/08/06/world/fake-beirut-video-missile-intl-trnd/index.html">CNN: Doctored videos are already faking the cause of Beirut's explosion (6 Aug. 2020)</a>
+Videos are being manipulated to look like negatives, and a missile was superimposed.
+            </p>
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="https://apnews.com/86f61f3ffb6173c29bc7db201c10f141">APNews: Misinformation on Coronavirus is Proving Highly Contagious (July 29, 2020)</a>
+By David Klepper. As the world races to find a vaccine and a treatment for COVID-19, there is seemingly no antidote in sight for the burgeoning outbreak of coronavirus conspiracy theories, hoaxes, anti-mask myths and sham cures.
+            </p>
+
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="https://firstdraftnews.org/latest/the-6-types-of-coronavirus-misinformation-to-watch-out-for/?emci=f0b20003-e872-ea11-a94c-00155d03b1e8&emdi=90390f08-f172-ea11-a94c-00155d03b1e8&ceid=7506236">The 6 types of coronavirus misinformation to watch out for (March 27, 2020)</a>
+Six distinct types of misinformation are emerging. They follow the same infectious pattern as the virus and escalate in sequence with confirmed cases in each country, like a shadow of rumors, an outrider to events before reality hits.
+            </p>
+
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="https://abcnews.go.com/Health/debunking-myths-avoid-cure-coronavirus/story?id=69578209">Debunking Myths About How to Avoid or Cure Coronavirus (March 14, 2020)</a>
+While sharing personal advice is often well-meaning, it is important to focus on science to ensure that recommendations are based in fact.
+Social media is spreading plenty of false rumors about COVID-19, especially when it comes to health and wellness suggestions.
+            </p>
+
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="https://www.washingtonpost.com/news/the-fix/wp/2017/05/20/the-seth-rich-conspiracy-shows-how-fake-news-still-works/?utm_term=.b19e81753b11">Washington Post: The Seth Rich Conspiracy Shows How Fake News Still Works (May 20, 2017)</a>
+"The reemergence of the conspiracy theory this week, which did not lack for real news, revealed plenty about the fake news ecosystem (or to use BuzzFeed's useful phrase, “the upside-down media”) in the Trump era."
+               
+            </p>
+
+        </div>
+
+        <div class="n1">
+            <a href="https://www.vice.com/en_us/article/pgwwgz/can-librarians-save-us-from-fake-news">
+            <p>
+                Vice.com: Can Librarians Save Us From Fake News? (Mar 21, 2017)</a>
+                Arielle Dollinger's article outlines what librarians do to help teach about fake news and misinformation. Contains good links to other resources.
+            </p>
+
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="https://chroniclevitae.com/news/1727-competing-facts-are-a-fact-of-life?cid=at&utm_source=at&utm_medium=en&elqTrackId=eac458021cff406cb991eb8d74db9ec7&elq=1145a0d0b7ba48d1a24844b9a841891d&elqaid=12882&elqat=1&elqCampaignId=5305">Chronicle of Higher Education: Competing Facts are Facts of Life (Mar 8, 2017)</a>
+                Rob Jenkins argues that in a debate, one camp rarely has all the facts on its side, and although we use "fact" and "truth" synonymously, they aren't the same thing.
+            </p>
+
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="http://www.npr.org/2016/12/11/505154631/a-finders-guide-to-facts?utm_source=facebook.com&utm_medium=social&utm_campaign=npr&utm_term=nprnews&utm_content=2039">NPR: A Finder's Guide to Facts (Dec 11, 2016)</a>
+                This article discusses "post-truth", the idea that all news outlets will fail you eventually and it's impossible to know who to trust. It provides some commonsense advice on what to look for in a news outlet.
+            </p>
+
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="http://abcnews.go.com/Technology/fake-news-stories-make-real-news-headlines/story?id=43845383">CNN: Fake News, Real Violence (Dec 5, 2016)</a>
+                "Pizzagate" was a fake news story which connected a pizzeria with a child pornography ring allegedly run by Hillary Clinton and John Podesta. On Sunday, December 3, 2016, an armed shooter entered the pizzeria and fired a shot before being accosted by the police.
+            </p>
+
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="http://www.nytimes.com/2016/11/20/business/media/how-fake-news-spreads.html?_r=0">ABCNews: When Fake News Makes Real News Headlines (Nov 29, 2016)</a>
+About a fake story which was treated as real news. Traces some of the pipeline for developing and distributing fake news
+
+               
+            </p>
+
+        </div>
+
+        <div class="n1">
+
+            <p>
+                <a href="http://www.nytimes.com/2016/11/20/business/media/how-fake-news-spreads.html?_r=0">New York Times: How Fake News Goes Viral (Nov 20, 2016)</a>
+From a single Tweeter with 35 friends to being shared over 400,000 times through various forums, this article traces a Tweet made November 9th, 2016
+
+               
+            </p>
+
+        </div>
+
+        
+
+
+    </div>
+
+
+    <div class="real">
+        <div class="r1">
+            
+            <img src="{%static 'images/real.jpg'%}" height="600px" width="100%"   />
+        </div>
+        
+        <div class="r2">
+            <h1 style="text-align:center">Combating Fake News </h1>
+
+            <iframe width="100%" height="80%" src="https://www.youtube.com/embed/hzCqrIxA3PM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+        </div>
+
+    </div>
+
+    <div >
+        <h1 id="what">Presenting your fake news detector: FLOCK</h1>
+
+        <p class="endingNote">
+            FLOCK web app is helping users to verify the news content they upload and help them
+            to reach the right part of the story.This app is also doing a great job in stopping
+            rumours to spread which can be very dangerous as presented above.Based on both human 
+            and machine support we the FLOCK team provide fast reliable and correct news verifying
+            services.Come join us in the battle of defeating false contents and ideologies and spread
+            the truth.
+
+            <h1 id="what">FLOCK team welcomes you and lets get started.</h1>
+            
+        </p>
+
+        
+        
+    </div>
+    
+
+
+
+
+
+</body>

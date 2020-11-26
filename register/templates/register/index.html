@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'register/index.css'%}">
+</head>
+
+
+<nav id="MainNavBar">
+    <ul>
+       <li><a href="{%url 'home:index'%}">Home</a></li>
+            <li><a href="{%url 'register:index'%}">Register/Login</a></li>
+            <li><a href="coronatesting.html">How it works?</a></li>
+            <li><a href="{%url 'team:index'%}">Our Team</a></li>
+            <li id="navLogo"><img src="{%static 'images/logo1.jfif'%}"></li>
+            <li><h1>Your Fake News Fighter</h1></li>
+    </ul>
+</nav>
+
+<body bgcolor="black">
+   {% load static %}
+    <div class="main">
+        <div class="ImagesMoving">
+            {% load static %}
+            <img id="disp" src="{%static 'images/pimage.jpg'%}"  height=500px width=80%/>
+        </div>
+        <div class="login">
+            <div class="log">
+                <h1 style="color:rgb(255, 255, 7)">Hello Members</h1>
+                <h1 style="color:rgb(255, 255, 7)">Sign In to your account</h1>
+                <button id="verCustomer" class="vbtn">Verify as <br> Reader</button><br><br>
+                <button id="verCreator" class="vbtn">Verify as <br> Creator</button>
+
+            </div>
+
+            <div class="reg">
+                <h3 style="color:rgb(255, 255, 7)">Did you heard something that you cant believe?<br>Come it's a right place to verify it</h3>
+                <h1 style="color:rgb(255, 255, 7)">Register and Get Started</h1>
+                <button id="regCustomer" class="rbtn">Register as <br> Customer</button><br><br>
+                <button id="regCreator" class="rbtn">Register as <br> Creator</button>
+            </div>
+           
+        </div>
+    </div>
+
+</body>
+    <script>
+    var url = "{%static 'images/'%}";
+    </script>
+    <script type="text/javascript" src="{%static 'register/index.js'%}"></script>
+    <script type="text/javascript" src="{%static 'register/loader.js'%}"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.2.0/dist/web3.min.js"></script>
+</body>
